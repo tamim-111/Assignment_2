@@ -4,217 +4,449 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-}
-
-/* Removing  Default Margin and Padding*/
-* {
-    margin: 0;
-    padding: 0;
-}
-
-/* Setting Custom Default Setting */
-#nav_section,
-#banner_section,
-#standard_curriculum_section,
-.marquee_section {
-    margin: 0 auto;
-    max-width: 80vw;
-}
-
-/*................... Shared Styles..................... */
-/* Headings */
-.heading1 {
-    font-size: 3.5rem;
-    font-weight: 700;
-    color: black;
-}
-
-.heading2 {
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #000000;
-}
-
-.heading3 {
-    font-size: 2.6rem;
-    font-weight: 700;
-    color: #ffffff;
-}
-
-.heading4 {
-    font-size: 2rem;
-    font-weight: 700;
-    color: black;
-}
-
-.heading5 {
-    font-size: 1.6rem;
-    font-weight: 700;
-    color: #ffffff;
-}
-
-.heading6 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #202020;
-}
-
-.heading7 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #000000;
-}
-
-.heading8 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #ffffff;
-}
-
-.heading9 {
-    font-size: 1rem;
-    font-weight: 700;
-    color: #000000;
-}
-
-.heading10 {
-    font-size: 1rem;
-    font-weight: 700;
-}
-
-/* Paragraphs */
-.paragraph1 {
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: black;
-}
-
-.paragraph2 {
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: #ffffff;
-}
-
-.paragraph3 {
-    font-size: 1rem;
-    font-weight: 500;
-    color: #808080;
-}
-
-.paragraph4 {
-    font-size: 1rem;
-    font-weight: 500;
-    color: #666666;
-}
-
-/* Buttons */
-.button1 {
-    color: white;
-    background-color: orange;
-    padding: 10px 60px;
-    border-radius: 12px;
-    border-style: none;
-}
-
-.button2 {
-    color: white;
-    background-color: black;
-    padding: 10px 60px;
-    border-radius: 12px;
-    border-style: none;
-}
-
-.button3 {
-    color: white;
-    padding: 15px 19px;
-    border-radius: 47px;
-    border-style: none;
-}
-
-/* Colors */
-.color1 {
-    color: orange;
-}
-
-.color2 {
-    color: skyblue;
-}
-
-.color3 {
-    color: #05D4DF;
-}
-
-.color4 {
-    color: #5D58EF;
-}
-
-.color5 {
-    background-color: #3CD8E8;
-}
-
-.color6 {
-    background-color: #95B226;
-}
-
-.color7 {
-    background-color: #5D58F0;
-}
-
-.color8 {
-    background-color: #01ACFD;
-}
-
-.hide {
-    display: none;
-}
-
-/*Nav Section  */
-#nav_section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav_section_logo_container {
-    display: flex;
-    align-items: center;
-}
-
-.nav_section_lists ul {
-    list-style-type: none;
-    display: flex;
-    column-gap: 5vh;
-}
-
-.nav_section_lists ul li a {
-    text-decoration: none;
-}
-
-/* Responsive Design for Mobiles */
-@media screen and (max-width: 576px) {
-
-    /* default Styles */
-    #nav_section,
-    #banner_section,
-    #standard_curriculum_section,
-    .marquee_section {
-        margin: 0 auto;
-        max-width: 90vw;
-    }
-
-    /* Nav Section */
-    .nav_section_logo_container_text,
-    .nav_section_lists,
-    .nav_section_button {
-        display: none;
-    }
-
-    .hide {
-        display: block;
-        font-size: 30px;
-    }
-
-    #nav_section {
-        border-bottom: 1px solid orange;
-    }
-}
+  }
+  /* Removing  Default Margin and Padding*/
+  *{
+      margin: 0;
+      padding: 0;
+  }
+  /* Setting Custom Default Setting */
+  #nav_section,
+  #banner_section,
+  #standard_curriculum_section,
+  #our_stories_section{
+      margin: 0 auto;
+      max-width: 80vw;
+  }
+  #banner_section, 
+  #standard_curriculum_section,
+  #out_stories_section{
+      margin-bottom: 60px;
+  }
+  /*................... Shared Styles..................... */
+  /* Headings */
+  .heading1{
+      font-size: 3.5rem;
+      font-weight: 700;
+      color: black;
+  }
+  .heading1{
+      font-size: 3.5rem;
+      font-weight: 700;
+      color: black;
+  }
+  .heading1{
+      font-size: 3.5rem;
+      font-weight: 700;
+      color: black;
+  }
+  .heading1{
+      font-size: 3.5rem;
+      font-weight: 700;
+      color: black;
+  }
+  .heading2{
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: #000000;
+  }
+  .heading3{
+      font-size: 2.6rem;
+      font-weight: 700;
+      color: #ffffff;
+  }
+  .heading4{
+      font-size: 2rem;
+      font-weight: 700;
+      color: black;
+  }
+  .heading5{
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #ffffff;
+  }
+  .heading6{
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #202020;
+  }
+  .heading7{
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #000000;
+  }
+  .heading8{
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #ffffff;
+  }
+  .heading9{
+      font-size: 1rem;
+      font-weight: 700;
+      color: #000000;
+  }
+  .heading10{
+      font-size: 1rem;
+      font-weight: 700;
+  }
+  /* Paragraphs */
+  .paragraph1{
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: black;
+  }
+  .paragraph2{
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: #ffffff;
+  }
+  .paragraph3{
+      font-size: 1rem;
+      font-weight: 500;
+      color: #808080;
+  }
+  .paragraph4{
+      font-size: 1rem;
+      font-weight: 500;
+      color: #666666;
+  }
+  /* Buttons */
+  .button1{
+      color: white;
+      background-color: orange;
+      padding: 10px 60px;
+      border-radius: 12px;
+      border-style: none;
+  }
+  .button2{
+      color: white;
+      background-color: black;
+      padding: 10px 60px;
+      border-radius: 12px;
+      border-style: none;
+  }
+  .button3{
+      color: white;
+      padding: 15px 19px;
+      border-radius: 47px;
+      border-style: none;
+  }
+  /* Colors */
+  .color1{
+      color: orange;
+  }
+  .color2{
+      color: skyblue;
+  }
+  .color3{
+      color: #05D4DF;
+  }
+  .color4{
+      color: #5D58EF;
+  }
+  .color5{
+      background-color: #3CD8E8;
+  }
+  .color6{
+      background-color: #95B226;
+  }
+  .color7{
+      background-color: #5D58F0;
+  }
+  .color8{
+      background-color: #01ACFD;
+  }
+  /* hiding */
+  .hide{
+      display: none;
+  }
+  
+  /* Nav Section */
+  .nav_container{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  .nav_header{
+      display: flex;
+      align-items: center;
+  }
+  
+  .unordered_list_container ul{
+      list-style-type: none;
+      display: flex;
+      gap: 32px;
+  }
+  .unordered_list_container ul li a{
+      text-decoration: none;
+  }
+  
+  /* Banner Section */
+  .banner_container{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      column-gap: 50px;
+  }
+  .banner_header h1, p{
+      margin-top: 24px;
+      margin-bottom: 24px;
+  }
+  
+  /* Standard Curriculum Section */
+  .standard_curriculum_container{
+      text-align: center;   
+      background: url(../assets/bg.png);
+  }
+  .standard_curriculum_header{
+      margin-bottom: 80px;
+  }
+  .standard_curriculum_card_container{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 80px;
+  }
+  
+  .standard_curriculum_card_item1{
+      width: 25vw;
+      background-color: #DEF5FF;
+      box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
+      border-radius: 18px;
+      background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+      border: 0.94px solid rgb(222, 245, 255);
+  }
+  
+  .standard_curriculum_card_item2{
+      width: 25vw;
+      background-color: #FFF4DC;
+      box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
+      background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+      border: 0.94px solid rgb(255, 244, 220);
+  }
+  
+  .standard_curriculum_card_item3{
+      width: 25vw;
+      background-color: #F2E8FF;
+      box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
+      border-radius: 18px;
+      background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+      border: 0.94px solid rgb(242, 232, 255);
+  }
+  .standard_curriculum_card_item1 p, .standard_curriculum_card_item3 p, .standard_curriculum_card_item2 p{
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+  .standard_curriculum_card_arrow{
+      font-size: 50px;
+  }
+  
+  /* Our Stories Section*/
+  
+  #our_stories_section{
+      max-width: 100vw;
+      background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+  }
+  .our_stories_section_container{
+      height: 1018px;
+  }
+  .our_stories_header{
+      margin-top: 80px;
+      margin-bottom: 80px;
+      text-align: center;
+  }
+  .card1_container{
+      max-width: 630px;
+      background-color: #FFFFFF;
+      border-style: none;
+      border-radius: 16px;
+      max-width: 540px;
+      max-height: 630px;
+  }
+  .card1_image_container > img{
+      border-top-left-radius: 16px;
+      border-top-right-radius: 16px;
+  }
+  .card1_image_button{
+      margin-left: 38px;
+      margin-top: -20px;
+      margin-bottom: 32px;
+  }
+  .card1_text{
+      max-width: 463px;
+      margin: 0 auto;
+  }
+  .card1_text > p{
+      margin-bottom: 34px;
+  }
+  .card_content{
+      max-height: 301px;
+      max-width: 290px;
+      background-color: #ffffff;
+      border-radius: 16px;   
+  }
+  .card_content > img{
+      border-top-right-radius: 16px;
+      border-top-left-radius: 16px;
+  }
+  .card_button{
+      margin: -20px auto 0 38px;
+  }
+  .card_content  h3{
+      max-width: 214px;
+      margin: 19px 38px 28px 37px;
+  }
+  
+  .card_container_button{
+      margin: 0 auto;
+  }
+  .grid_container{
+      margin: auto 190px;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      justify-content: space-around;
+      row-gap: 20px;
+      
+  }
+  .card1{
+      grid-row: span 2;
+  }
+  .stories_custom_btn{
+      text-align: center;
+      margin-top: 15vh;
+  }
+  /* Footer Section */
+  .footer_container{
+      display: flex;
+      justify-content: space-around;
+      background-color: #01ACFD;
+      padding-top: 125px;
+      padding-bottom: 125px;
+  }
+  .footer_container_heading{
+      display: flex;
+      align-items: center;
+  }
+  .footer_heading_image{
+      width: 100px;
+  }
+  .footer_description{
+      width: 399px;
+  }
+  .footer_list ul{
+      list-style-type: none;
+  }
+  .footer_list ul li{
+      margin-bottom: 10px;
+  }
+  .footer_list ul li a{
+      text-decoration: none;
+  }
+  .footer_list > h4{
+      margin-bottom: 32px;
+  }
+  .footer_icon > h3{
+      margin-bottom: 32px;
+  }
+  /* Responsive Design */
+  @media screen and (max-width: 576px){
+      /* Nav Section */
+      .nav_header > h3, .unordered_list_container, .nav_footer > button{
+          display: none;
+      }
+      .hide{
+          display: block;
+      }
+      .nav_header > img{
+          width: 46px;
+      }
+      .icon_setting{
+          font-size: 35px;
+      }
+  
+      /* Banner Section */
+      .banner_container{
+          flex-direction: column-reverse;
+          text-align: center;
+      }
+      .banner_image > img{
+          width: 90vw;
+      }
+      /* Standard Curriculum Section */
+      .standard_curriculum_card_container{
+          flex-direction: column;
+      }
+      .standard_curriculum_card_item1, .standard_curriculum_card_item2,.standard_curriculum_card_item3{
+          width: 80vw;
+          margin-bottom: 20px;
+      }
+      .standard_curriculum_card_arrow{
+          display: none;
+      }
+      .standard_curriculum_header{
+          margin-bottom: 20px;
+      }
+      .standard_curriculum_card_container{
+          margin-bottom: 0;
+      }
+      /* Our Stories Section */
+      .card1{
+          display: none;
+      }
+      .our_stories_section_container{
+          height: 768px;
+      }
+      .our_stories_header{
+          margin-top: 40px;
+          margin-bottom: 20px;
+      }
+      .grid_container{
+          grid-template-columns: auto auto;
+          gap: 20px;
+          justify-content: center;
+      }
+      .card_content{
+          width: 45vw;
+          height: 184px ;
+      }
+      .card_content img{
+          width: 45vw;
+          height: 33vw;
+      }
+      .card_button button{
+          width: 103px;
+          height: 22px;
+          padding: 0;
+          margin: 0;
+          font-size: 10px;
+      }
+     
+      .stories_custom_btn{
+          margin-top: 6vh;
+      }
+      .card_button{
+          margin-top: -20px;
+          margin-left: 8px;
+      }
+      .hine{
+          display: block;
+      }
+      .card_content  h3{
+          font-size: 9px;
+          margin: 5px 8px 8px 9px;
+          text-align: center;
+      }
+      
+      /* Footer */
+      .footer_container{
+          flex-direction: column;
+          padding-left: 15px;
+      }
+      .footer_description{
+          width: 90vw;
+      }
+      .footer_icon{
+          margin-top: 30px;
+      }
+  }
