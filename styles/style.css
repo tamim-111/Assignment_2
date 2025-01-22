@@ -4,155 +4,217 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
-  /* Removing  Default Margin and Padding*/
-  *{
-      margin: 0;
-      padding: 0;
-  }
-  /* Setting Custom Default Setting */
-  #nav_section,
-  #banner_section,
-  #standard_curriculum_section,
-  #our_stories_section{
-      margin: 0 auto;
-      max-width: 80vw;
-  }
-  #banner_section, 
-  #standard_curriculum_section,
-  #out_stories_section{
-      margin-bottom: 60px;
-  }
-  /*................... Shared Styles..................... */
-  /* Headings */
-  .heading1{
-      font-size: 3.5rem;
-      font-weight: 700;
-      color: black;
-  }
-  .heading1{
-      font-size: 3.5rem;
-      font-weight: 700;
-      color: black;
-  }
-  .heading1{
-      font-size: 3.5rem;
-      font-weight: 700;
-      color: black;
-  }
-  .heading1{
-      font-size: 3.5rem;
-      font-weight: 700;
-      color: black;
-  }
-  .heading2{
-      font-size: 2.8rem;
-      font-weight: 700;
-      color: #000000;
-  }
-  .heading3{
-      font-size: 2.6rem;
-      font-weight: 700;
-      color: #ffffff;
-  }
-  .heading4{
-      font-size: 2rem;
-      font-weight: 700;
-      color: black;
-  }
-  .heading5{
-      font-size: 1.6rem;
-      font-weight: 700;
-      color: #ffffff;
-  }
-  .heading6{
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: #202020;
-  }
-  .heading7{
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: #000000;
-  }
-  .heading8{
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: #ffffff;
-  }
-  .heading9{
-      font-size: 1rem;
-      font-weight: 700;
-      color: #000000;
-  }
-  .heading10{
-      font-size: 1rem;
-      font-weight: 700;
-  }
-  /* Paragraphs */
-  .paragraph1{
-      font-size: 1.2rem;
-      font-weight: 400;
-      color: black;
-  }
-  .paragraph2{
-      font-size: 1.2rem;
-      font-weight: 400;
-      color: #ffffff;
-  }
-  .paragraph3{
-      font-size: 1rem;
-      font-weight: 500;
-      color: #808080;
-  }
-  .paragraph4{
-      font-size: 1rem;
-      font-weight: 500;
-      color: #666666;
-  }
-  /* Buttons */
-  .button1{
-      color: white;
-      background-color: orange;
-      padding: 10px 60px;
-      border-radius: 12px;
-      border-style: none;
-  }
-  .button2{
-      color: white;
-      background-color: black;
-      padding: 10px 60px;
-      border-radius: 12px;
-      border-style: none;
-  }
-  .button3{
-      color: white;
-      padding: 15px 19px;
-      border-radius: 47px;
-      border-style: none;
-  }
-  /* Colors */
-  .color1{
-      color: orange;
-  }
-  .color2{
-      color: skyblue;
-  }
-  .color3{
-      color: #05D4DF;
-  }
-  .color4{
-      color: #5D58EF;
-  }
-  .color5{
-      background-color: #3CD8E8;
-  }
-  .color6{
-      background-color: #95B226;
-  }
-  .color7{
-      background-color: #5D58F0;
-  }
-  .color8{
-      background-color: #01ACFD;
-  }
+}
+
+/* Removing  Default Margin and Padding*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting Custom Default Setting */
+#nav_section,
+#banner_section,
+#standard_curriculum_section,
+.marquee_section {
+    margin: 0 auto;
+    max-width: 80vw;
+}
+
+/*................... Shared Styles..................... */
+/* Headings */
+.heading1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: black;
+}
+
+.heading2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #000000;
+}
+
+.heading3 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.heading4 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+}
+
+.heading5 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.heading6 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #202020;
+}
+
+.heading7 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000000;
+}
+
+.heading8 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.heading9 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000000;
+}
+
+.heading10 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* Paragraphs */
+.paragraph1 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: black;
+}
+
+.paragraph2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.paragraph3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #808080;
+}
+
+.paragraph4 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #666666;
+}
+
+/* Buttons */
+.button1 {
+    color: white;
+    background-color: orange;
+    padding: 10px 60px;
+    border-radius: 12px;
+    border-style: none;
+}
+
+.button2 {
+    color: white;
+    background-color: black;
+    padding: 10px 60px;
+    border-radius: 12px;
+    border-style: none;
+}
+
+.button3 {
+    color: white;
+    padding: 15px 19px;
+    border-radius: 47px;
+    border-style: none;
+}
+
+/* Colors */
+.color1 {
+    color: orange;
+}
+
+.color2 {
+    color: skyblue;
+}
+
+.color3 {
+    color: #05D4DF;
+}
+
+.color4 {
+    color: #5D58EF;
+}
+
+.color5 {
+    background-color: #3CD8E8;
+}
+
+.color6 {
+    background-color: #95B226;
+}
+
+.color7 {
+    background-color: #5D58F0;
+}
+
+.color8 {
+    background-color: #01ACFD;
+}
+
+.hide {
+    display: none;
+}
+
+/*Nav Section  */
+#nav_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_section_logo_container {
+    display: flex;
+    align-items: center;
+}
+
+.nav_section_lists ul {
+    list-style-type: none;
+    display: flex;
+    column-gap: 5vh;
+}
+
+.nav_section_lists ul li a {
+    text-decoration: none;
+}
+
+/* Responsive Design for Mobiles */
+@media screen and (max-width: 576px) {
+
+    /* default Styles */
+    #nav_section,
+    #banner_section,
+    #standard_curriculum_section,
+    .marquee_section {
+        margin: 0 auto;
+        max-width: 90vw;
+    }
+
+    /* Nav Section */
+    .nav_section_logo_container_text,
+    .nav_section_lists,
+    .nav_section_button {
+        display: none;
+    }
+
+    .hide {
+        display: block;
+        font-size: 30px;
+    }
+
+    #nav_section {
+        border-bottom: 1px solid orange;
+    }
+}
