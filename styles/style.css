@@ -364,7 +364,9 @@
       .icon_setting{
           font-size: 35px;
       }
-  
+      .nav_container{
+        border-bottom: 1px solid orange;
+      }
       /* Banner Section */
       .banner_container{
           flex-direction: column-reverse;
